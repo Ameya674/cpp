@@ -1,18 +1,27 @@
 #include <iostream>
-#include <cmath>
 
 using namespace std;
 
 int main () {
 
-    double x = 3;
-    double y = 4;
+    int x = 10;
+    int y = 20;
 
-    double z = pow(2,4);
-    double w = sqrt(9);
-    double max_ = max(x, y);
-    double min_ = min(x, y);
-    double abs_ = abs(-3);
+    int div = y / x;
 
+    int mul = y * x;
+
+    int add = y + x;
+
+    int sub = y - x;
+
+    int rem = y % x;
+
+    int dummy;
+    // order of operators in same to BODMAS
+
+    cout << "printing";
+    cin >> dummy;
+    
     return 0;
 }
